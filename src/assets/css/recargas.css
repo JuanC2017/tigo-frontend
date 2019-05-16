@@ -1,0 +1,64 @@
+.form-control {
+    display: inline !important;
+    height: 25px !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+}
+
+.box-footer{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#boton-recargas{
+    opacity: .65;
+}
+
+
+
+@media screen and (max-width: 1900px) {
+        
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+        
+
+}
+
+
+@media screen and (max-width: 800px) {
+        
+
+}
+
+
+@media screen and (max-width: 450px) {
+        
+
+}
+
+
+@media screen and (max-width: 375px) {
+        
+
+}
+
+
+@media screen and (max-width: 200px) {
+        
+
+}
+
+
+@media screen and (max-width: 150px) {
+        
+
+}

@@ -1,0 +1,308 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+   
+    
+    /* Set black background color, white text and some padding */
+    
+    html, body{
+      height: 100%;
+    }
+    
+    
+    
+    .nav-tabs{
+      margin: 0;
+      border-bottom-color: #f4f4f4;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    
+
+    .nav.navbar-nav.navbar-right{
+      padding-left: 0;
+      position: fixed;
+      right: 20px;
+    }
+
+    li.pull-right-header{
+      line-height: 35px;
+      
+      font-size: 15px;
+      color: #05A;
+    }
+
+   
+
+    .nav-tabs  li{
+      border-top: 3px solid transparent;
+      margin-bottom: -2px;
+    }
+
+    .fa {
+    margin-left: 5px;
+    }
+
+    .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    }
+
+    ul.tabs{
+      list-style: none;
+      display: flex;
+    }
+
+    ul.tabs li a{
+      /*color: #002E6E !important;*/
+      border: 0px !important;
+      border-bottom: solid 4px; /*#002E6E !important;*/
+      font-weight: 200 !important;
+      font-size: 14px;
+      padding: 10px 15px;
+      position: relative;
+      display: block;
+    }
+
+    body{
+      background-color: #f1f1f1;
+    }
+
+    #contenedor-principal{
+      background-color: #fff;
+      padding: 15px 15px 15px 15px;
+      margin-left: 15px;
+      position: relative;
+      border-radius: 3px;
+      background: #ffffff;
+      border-top: 3px solid #3c8dbc;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      margin-inline: auto; 
+      
+    }
+
+    .active{
+      font-size: 15px;
+      color: #002E6E !important;
+      border-bottom: solid 4px #002E6E !important;
+      
+    }
+
+    #contenedor-1{
+      margin-right: 15px;
+      
+    }
+
+    .container-fluid{
+      
+      
+    }
+
+    ul.tabs li a{
+      text-decoration: none;
+    }
+
+    ul.tabs li{
+      padding-left: 15px;
+      padding-right: 15px;
+      color: gray;
+    }
+
+    ul.tabs-2 li a{
+      text-decoration: none;
+      color: gray;
+    }
+
+    
+
+    
+
+    
+
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+
+
+
+
+    @media screen and (max-width: 768px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        width: auto;
+      } 
+
+      ul.tabs li{
+        width: none;
+        flex-basis: 0;
+        flex-grow: 1;
+        
+      }
+    }
+ #first-ul{
+      float: none !important;
+      padding-left: 80%;
+    }
+
+    @media screen and (max-width: 450px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        
+      } 
+
+      #first-ul{
+        padding: 15px 0px;
+      }
+
+      ul.tabs li a{
+        padding: 15px 0px;
+      }
+
+      .secciones section{
+        padding: 20px;
+      }
+
+    }
+
+    @media screen and (max-width: 375px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        
+      } 
+
+      #first-ul{
+        padding: 15px 0px;
+      }
+
+      ul.tabs li a{
+        padding: 15px 0px;
+      }
+
+      .secciones section{
+        padding: 20px;
+      }
+
+    }
+
+    @media screen and (max-width: 800px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        
+      } 
+
+      #first-ul{
+        padding: 15px 0px;
+      }
+
+      ul.tabs li a{
+        padding: 15px 0px;
+      }
+
+      .secciones section{
+        padding: 20px;
+      }
+
+    }
+
+    @media screen and (max-width: 360px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        
+      } 
+
+      #first-ul{
+        padding: 15px 0px;
+      }
+
+      ul.tabs li a{
+        padding: 15px 0px;
+      }
+
+      .secciones section{
+        padding: 20px;
+      }
+
+    }
+
+    @media screen and (max-width: 1024px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        
+      } 
+
+      #first-ul{
+        padding: 15px 0px;
+      }
+
+      ul.tabs li a{
+        padding: 15px 0px;
+      }
+
+      .secciones section{
+        padding: 20px;
+      }
+
+    }
+
+    @media screen and (max-width: 1900px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        
+      } 
+
+      #first-ul{
+        padding: 15px 0px;
+      }
+
+      ul.tabs li a{
+        padding: 15px 0px;
+      }
+
+      .secciones section{
+        padding: 20px;
+      }
+
+    }
+    
+

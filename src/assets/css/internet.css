@@ -1,0 +1,70 @@
+.internets{
+    
+}
+
+.internet{
+    padding: 10px 13px 10px 13px;
+    background-color: #DBE7F3 !important;
+    border-left: 5px solid #0097bc;
+    border-radius: 3px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 1900px) {
+    .internet{
+    height: auto;
+    padding: 3px;
+}      
+
+}
+
+   
+
+
+
+
+@media screen and (max-width: 1024px) {
+        .internet{
+    height: auto;
+    padding: 3px;
+}   
+
+}
+
+
+@media screen and (max-width: 800px) {
+         .internet{
+    height: auto;
+    padding: 3px;
+}  
+
+}
+
+
+@media screen and (max-width: 450px) {
+         .internet{
+    height: auto;
+    padding: 3px;
+}  
+
+}
+
+
+@media screen and (max-width: 375px) {
+         .internet{
+    height: auto;
+    padding: 3px;
+}  
+
+}
+
+
+@media screen and (max-width: 200px) {
+       .internet{
+    height: auto;
+    padding: 3px;
+}    
+
+}

@@ -1,0 +1,116 @@
+.tab-pane{
+    display: block;
+}
+
+.form-group{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ul.tabs-2{
+    list-style: none;
+    display: flex;
+}
+
+ul.tabs-2 li a{
+    
+    border: 0px !important;
+    
+    font-weight: 200 !important;
+    font-size: 14px;
+    padding: 10px 15px;
+    position: relative;
+    display: block;
+}
+
+#boton-b1{
+      background-color: #337ab7;
+      border-color: #2e6da4;
+      opacity: .65;
+      
+    }
+
+.bolsas{
+    
+    padding-left: 15px;
+    
+    border-radius: 3px;
+}
+
+.bolsas #col9{
+    width: 75%;
+}
+
+.bolsas .bolsa{
+    padding: 10px 13px 10px 13px;
+    background-color: #DBE7F3 !important;
+    border-left: 5px solid #0097bc;
+    border-radius: 3px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+.bolsas  #col3{
+    
+    float: left;
+    
+}
+
+#boton-b1{
+    padding: 12px 24px;
+    font-size: 24px;
+}
+
+#precio{
+    font-size: 15px;
+    color: #05A;
+    font-family: sans-serif solid;
+}
+
+.bolsas .precio{
+    font-size: 15px;
+    color: #05A;
+    font-family: "cronommregular-bold";
+}
+
+
+@media screen and (max-width: 1900px) {
+        
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+        
+
+}
+
+
+@media screen and (max-width: 800px) {
+        
+
+}
+
+
+@media screen and (max-width: 450px) {
+        
+
+}
+
+
+@media screen and (max-width: 375px) {
+        
+
+}
+
+
+@media screen and (max-width: 200px) {
+        
+
+}
