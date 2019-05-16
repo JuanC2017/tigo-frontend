@@ -1,34 +1,35 @@
- /* Remove the navbar's default margin-bottom and rounded borders */ 
+ /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
     }
 
-    
-    
+
+
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 450px}
-    
+
     /* Set gray background color and 100% height */
-   
-    
+
+
     /* Set black background color, white text and some padding */
-    
+
     html, body{
       height: 100%;
     }
-    
-    
-    
+
+
+
     .nav-tabs{
       margin: 0;
       border-bottom-color: #f4f4f4;
       border-top-right-radius: 3px;
       border-top-left-radius: 3px;
       border-bottom: 1px solid #ddd;
+
     }
 
-    
+
 
     .nav.navbar-nav.navbar-right{
       padding-left: 0;
@@ -38,12 +39,13 @@
 
     li.pull-right-header{
       line-height: 35px;
-      
+      float: right;
       font-size: 15px;
       color: #05A;
+
     }
 
-   
+
 
     .nav-tabs  li{
       border-top: 3px solid transparent;
@@ -91,25 +93,25 @@
       margin-bottom: 20px;
       margin-top: 15px;
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-      margin-inline: auto; 
-      
+      margin-inline: auto;
+
     }
 
     .active{
       font-size: 15px;
       color: #002E6E !important;
       border-bottom: solid 4px #002E6E !important;
-      
+
     }
 
     #contenedor-1{
       margin-right: 15px;
-      
+
     }
 
     .container-fluid{
-      
-      
+
+
     }
 
     ul.tabs li a{
@@ -127,13 +129,13 @@
       color: gray;
     }
 
-    
 
-    
 
-    
 
-    
+
+
+
+
     /* On small screens, set height to 'auto' for sidenav and grid */
 
 
@@ -147,13 +149,13 @@
       .row.content {
         height:auto;
         width: auto;
-      } 
+      }
 
       ul.tabs li{
         width: none;
         flex-basis: 0;
         flex-grow: 1;
-        
+
       }
     }
  #first-ul{
@@ -168,8 +170,8 @@
       }
       .row.content {
         height:auto;
-        
-      } 
+
+      }
 
       #first-ul{
         padding: 15px 0px;
@@ -192,8 +194,8 @@
       }
       .row.content {
         height:auto;
-        
-      } 
+
+      }
 
       #first-ul{
         padding: 15px 0px;
@@ -216,8 +218,8 @@
       }
       .row.content {
         height:auto;
-        
-      } 
+
+      }
 
       #first-ul{
         padding: 15px 0px;
@@ -240,8 +242,8 @@
       }
       .row.content {
         height:auto;
-        
-      } 
+
+      }
 
       #first-ul{
         padding: 15px 0px;
@@ -264,8 +266,8 @@
       }
       .row.content {
         height:auto;
-        
-      } 
+
+      }
 
       #first-ul{
         padding: 15px 0px;
@@ -288,8 +290,8 @@
       }
       .row.content {
         height:auto;
-        
-      } 
+
+      }
 
       #first-ul{
         padding: 15px 0px;
@@ -304,5 +306,3 @@
       }
 
     }
-    
-
