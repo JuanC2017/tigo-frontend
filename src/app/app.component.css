@@ -1,7 +1,10 @@
 #sidenav3{
 
     padding-right: 1px;
-    position: sticky;
-    left: 1000px;
-    bottom: 385px;
+    margin-right: 10px;
+    float: right;
+}
+
+#sidenav{
+  position: fixed;
 }
